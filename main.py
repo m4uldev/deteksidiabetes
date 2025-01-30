@@ -7,7 +7,7 @@ st.title("Deteksi Penyakit Diabetes")
 st.caption("Aplikasi Deteksi Penyakit Diabetes")
 
 # Konfigurasi API Gemini
-genai.configure(api_key="AIzaSyC3rzL9U4ccMg5k9XpL9M8Hou-2ZVCXhk0")
+genai.configure(api_key=st.secrets["auth_token"])
 
 generation_config = {
     "temperature": 1,
