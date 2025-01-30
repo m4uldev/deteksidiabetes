@@ -27,5 +27,5 @@ if kalkulasi_diabetes:
     
     
     
-    st.text(f"Hasil Analisa: {'Berpotensi Diabetes.' if prediksi[0] == 1 else "Tidak Berpotensi Diabetes."}")
+    st.text(f"Hasil Analisa: {'Berpotensi Diabetes.' if prediksi[0] == 1 else 'Tidak Berpotensi Diabetes.'}")
     
